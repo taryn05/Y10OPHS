@@ -2,7 +2,7 @@ cars = []
 
 addName = True
 while addName == True:
-  newCar = str(input("enter a new car or x to exit"))
+  newCar = str(input("enter a new car or x to exit >>> "))
   if newCar == "x":
     print("now exiting...")
     addName = False
